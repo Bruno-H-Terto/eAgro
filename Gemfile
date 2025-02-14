@@ -51,6 +51,29 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # https://github.com/rspec/rspec-rails
+  gem "rspec-rails"
+
+  # https://github.com/teamcapybara/capybara?tab=readme-ov-file
+  gem "capybara"
+
+  # https://github.com/simplecov-ruby/simplecov
+  gem 'simplecov', require: false
+
+  # https://github.com/thoughtbot/shoulda-matchers
+  gem "shoulda-matchers"
+
+  # https://github.com/faker-ruby/faker
+  gem "faker"
+
+  # https://github.com/thoughtbot/factory_bot_rails
+  gem "factory_bot_rails"
+
+  # https://github.com/yob/pdf-reader
+  gem "pdf-reader"
+
+  gem "letter_opener"
 end
 
 group :development do
