@@ -59,7 +59,7 @@ group :development, :test do
   gem "capybara"
 
   # https://github.com/simplecov-ruby/simplecov
-  gem 'simplecov', require: false
+  gem "simplecov", require: false
 
   # https://github.com/thoughtbot/shoulda-matchers
   gem "shoulda-matchers"
@@ -80,4 +80,3 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
-
